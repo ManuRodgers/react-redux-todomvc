@@ -1,12 +1,14 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component, Fragment } from "react";
+import Todo from "./Todo/Todo";
 
 class App extends Component {
   render() {
-    return <div>you suck</div>;
+    return (
+      <Fragment>
+        <Todo />
+      </Fragment>
+    );
   }
 }
-
-App.propTypes = {};
 
 export default App;

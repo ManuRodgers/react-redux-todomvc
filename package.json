@@ -6,7 +6,7 @@
   "author": "manu <manurodgersgoat@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clear": "rimraf ./www/dist",
+    "clear": "rimraf ./src/dist",
     "build": "yarn run clear && webpack"
   },
   "devDependencies": {
@@ -26,6 +26,7 @@
     "babel-runtime": "^6.26.0",
     "classnames": "^2.2.5",
     "express": "^4.16.3",
+    "formidable": "^1.2.1",
     "mongoose": "^5.1.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
